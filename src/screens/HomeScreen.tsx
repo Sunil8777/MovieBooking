@@ -66,7 +66,6 @@ const HomeScreen = ({ navigation }: any) => {
 
     })();
   }, [])
-
   console.log(nowPlayingMoviesList)
   const searchMoviesFunction = () => {
     navigation.navigate('Search');
